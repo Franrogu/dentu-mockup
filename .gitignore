@@ -1,0 +1,50 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+
+# Variables de entorno (muy importante)
+.env
+.env.local
+
+# Dependencias
+node_modules/
+vendor/
+
+# Archivos de compilación / build
+dist/
+build/
+out/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.suo
+*.user
+*.cache
+
+# Archivos de pruebas
+coverage/
+
+# Python
+__pycache__/
+*.pyc
+
+# Java
+*.class
+*.jar
+target/
+
+# Configuraciones locales
+config.local.json
+
+# Archivos específicos
+contendio
