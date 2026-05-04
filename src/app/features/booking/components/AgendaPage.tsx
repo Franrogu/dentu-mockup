@@ -164,7 +164,7 @@ export function AgendaPage() {
         setRescheduleAppointmentId(appointmentId);
         break;
       case "view_patient":
-        navigate(`/pacientes/${appointment.patientId}?tab=citas`);
+        navigate(`/pacientes/${appointment.patientId}?tab=historia-clinica`);
         break;
       case "view_visit":
         if (appointment.visitId) {

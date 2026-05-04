@@ -311,7 +311,7 @@ export function VisitWorklist() {
                 <Button
                   variant="outline"
                   className="rounded-xl"
-                  onClick={canOpenPatientProfile(selectedVisit) ? () => navigate(`/pacientes/${selectedVisit.patient.routeId}?tab=visitas`) : undefined}
+                  onClick={canOpenPatientProfile(selectedVisit) ? () => navigate(`/pacientes/${selectedVisit.patient.routeId}?tab=historia-clinica`) : undefined}
                 >
                   <UserRound className="h-4 w-4" />
                   Ver paciente

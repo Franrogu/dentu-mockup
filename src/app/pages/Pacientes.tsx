@@ -152,8 +152,8 @@ export function Pacientes() {
                       <Button variant="outline" className="rounded-xl" onClick={() => navigate(`/pacientes/${patient.id}`)}>
                         Ver paciente
                       </Button>
-                      <Button variant="outline" className="rounded-xl" onClick={() => navigate(`/pacientes/${patient.id}?tab=citas`)}>
-                        Ver citas
+                      <Button variant="outline" className="rounded-xl" onClick={() => navigate(`/pacientes/${patient.id}?tab=historia-clinica`)}>
+                        Ver expediente
                       </Button>
                       <Button className="rounded-xl bg-[#0F5F6D] hover:bg-[#0d4f5a]" onClick={() => setCreatePatientId(patient.id)}>
                         Nueva cita

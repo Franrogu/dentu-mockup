@@ -86,7 +86,9 @@ export function VisitFormView({
 }) {
   const navigate = useNavigate();
   const isEdit = mode === "edit";
-  const backTarget = fromPatientContext ? `/pacientes/${patientRouteId}?tab=visitas` : "/visitas";
+  const backTarget = fromPatientContext
+    ? `/pacientes/${patientRouteId}?tab=historia-clinica`
+    : "/visitas";
 
   const patientDisplayName = visit?.patient.fullName || mockPatient.fullName;
   const visitReason = visit?.reasonForVisit || "";

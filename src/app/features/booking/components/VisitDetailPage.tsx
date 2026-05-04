@@ -66,7 +66,7 @@ export function VisitDetailPage({ visitId }: { visitId: string | undefined }) {
                   Ver cita origen
                 </Button>
               ) : null}
-              <Button className="rounded-xl bg-[#0F5F6D] hover:bg-[#0d4f5a]" onClick={() => navigate(`/pacientes/${patient.id}?tab=visitas`)}>
+              <Button className="rounded-xl bg-[#0F5F6D] hover:bg-[#0d4f5a]" onClick={() => navigate(`/pacientes/${patient.id}?tab=historia-clinica`)}>
                 Ver paciente
               </Button>
             </div>

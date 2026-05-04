@@ -99,7 +99,7 @@ export function PatientAppointmentsTab({ patientId }: { patientId: string }) {
         break;
       }
       case "view_patient":
-        navigate(`/pacientes/${appointment.patientId}?tab=citas`);
+        navigate(`/pacientes/${appointment.patientId}?tab=historia-clinica`);
         break;
     }
   };

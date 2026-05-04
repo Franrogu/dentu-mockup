@@ -235,7 +235,7 @@ export function PatientSummary({ patient, conditions, medications }: PatientSumm
         <Card className="p-5">
           <div className="flex items-center justify-between mb-4">
             <h3 className="font-semibold text-gray-900">Visitas recientes</h3>
-            <Button variant="ghost" size="sm" onClick={() => navigate(`/pacientes/${id}?tab=visitas`)}>
+            <Button variant="ghost" size="sm" onClick={() => navigate(`/pacientes/${id}?tab=historia-clinica`)}>
               Ver todas →
             </Button>
           </div>

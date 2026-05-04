@@ -107,7 +107,7 @@ export function AppointmentDetailDrawer({
                   <Button
                     variant="outline"
                     className="rounded-xl"
-                    onClick={() => navigate(`/pacientes/${patient.id}?tab=citas`)}
+                    onClick={() => navigate(`/pacientes/${patient.id}?tab=historia-clinica`)}
                   >
                     Ver paciente
                   </Button>
